@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusNotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CampusNotes</h1>
+        <p>Your personal college notes manager</p>
+    </header>
+
+    <main>
+        <h2>Add Your Notes</h2>
+        <input type="text" id="title" placeholder="Enter note title">
+        <textarea id="content" placeholder="Write your notes"></textarea>
+        <button onclick="addNote()">Add Note</button>
+
+        <h2>My Notes</h2>
+        <div id="notes"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
