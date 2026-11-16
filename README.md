@@ -14,3 +14,6 @@ CampusNotes is a simple web application for college students.
 
 ## Purpose
 This project helps students manage their academic notes.
+
+## Project Status
+CampusNotes initial version is successfully uploaded to GitHub.
